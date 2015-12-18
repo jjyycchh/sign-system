@@ -307,10 +307,10 @@
                 请输入开始和结束日期，请注意格式规范。
               </div>
               <div class="form-group">
-                <input type="input" class="form-control" name="startdate" placeholder="开始日期（例如：2015-09-01）" value="{{old('startdate')}}">
+                <input type="date" class="form-control" name="startdate" placeholder="开始日期（例如：2015-09-01）" value="{{old('startdate')}}">
               </div>
               <div class="form-group">
-                <input type="input" class="form-control" name="enddate" placeholder="结束日期（例如：2015-09-02）" value="{{old('enddate')}}">
+                <input type="date" class="form-control" name="enddate" placeholder="结束日期（例如：2015-09-02）" value="{{old('enddate')}}">
               </div>
               <div class="form-group">
                 <textarea class="form-control" name="description" rows="3" placeholder="请输入申诉理由（至少5个字）">{{old('description')}}</textarea>
